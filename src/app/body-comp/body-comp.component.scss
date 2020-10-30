@@ -1,0 +1,50 @@
+@import 'src/scss/_vars.scss';
+
+.container-fluid{
+
+	.Banner {
+	background: $Bannerbg;
+	}
+	.row{
+		.col-sm {
+			.Greeting_msgDiv{
+				.Greeting_title {
+					font-family: Romantica !important;
+					text-shadow: 4px 6px 7px rgba(0,0,0,0.3);
+					color: $ThemeRed;
+					line-height: 1;
+					padding-top: 60px;
+						.Greetings_ {
+						color: $DarkPurple !important;
+					}
+				}
+				.Greeting_msg {
+					font-family: Savoye !important;
+					font-size: 30px;
+				}
+				.btn-make-pair {
+					background: $ThemeRed;
+					color: $White;
+					font-family: Oxtail !important;
+					font-size: 25px;
+					border-radius: 0px;
+					&:hover{
+						color: $IconBlack;
+						background: $White;
+					}
+				}
+		}
+		}
+	}
+	.PreferenceRow {
+		background: $PreferenceBg;
+	}
+}
+
+@media only screen and (min-width: 992px) {
+	// .Greeting_msgDiv{
+	// 	top: 50%;
+	// 	transform: translateY(-50%);
+	// }
+
+}

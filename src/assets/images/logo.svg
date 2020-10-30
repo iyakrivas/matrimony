@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="116.508" height="113.758" viewBox="0 0 116.508 113.758">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f80b26"/>
+      <stop offset="1" stop-color="#3c067c"/>
+    </linearGradient>
+    <filter id="logo" x="0" y="0" width="116.508" height="113.758" filterUnits="userSpaceOnUse">
+      <feOffset dx="10" dy="10" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.678" y2="0.829" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f10a28"/>
+      <stop offset="1" stop-color="#3f067a"/>
+    </linearGradient>
+  </defs>
+  <g id="logo-2" data-name="logo" transform="translate(12.5 12.5)">
+    <g transform="matrix(1, 0, 0, 1, -12.5, -12.5)" filter="url(#logo)">
+      <path id="logo-3" data-name="logo" d="M55.631,3.938h-.172a19.559,19.559,0,0,0-16.33,8.939A19.559,19.559,0,0,0,22.8,3.938h-.172A19.434,19.434,0,0,0,3.375,23.362c0,6.36,2.785,15.385,8.217,22.81C21.94,60.319,39.129,72.7,39.129,72.7S56.319,60.319,66.667,46.172c5.432-7.426,8.217-16.45,8.217-22.81A19.434,19.434,0,0,0,55.631,3.938Zm7.151,39.4C56.387,52.068,47.071,60.25,41.364,64.874a1.373,1.373,0,0,1-2.235-1.066V28.45a23.345,23.345,0,0,1,4.005-12.892c.017-.017.017-.034.034-.034a15.17,15.17,0,0,1,5.226-4.9,14.411,14.411,0,0,1,7.065-1.856h.155A14.584,14.584,0,0,1,70.087,23.362C70.07,28.347,67.818,36.443,62.782,43.336Z" transform="translate(9.13 8.56)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_ionic-ios-male" data-name="Icon ionic-ios-male" d="M20.2,3.375H15.648a.569.569,0,0,0,0,1.137H18.8l-3.772,3.8a7.114,7.114,0,1,0,.8.807l3.8-3.776V8.493a.569.569,0,1,0,1.137,0V3.944A.563.563,0,0,0,20.2,3.375ZM16.38,13.7a5.939,5.939,0,1,1-1.74-4.194A5.893,5.893,0,0,1,16.38,13.7Z" transform="translate(12.63 22.098)" fill="#fff"/>
+    <path id="Icon_ionic-ios-female" data-name="Icon ionic-ios-female" d="M3.945,20.778a.556.556,0,0,0,.4-.167L6.22,18.737l1.548,1.548a.563.563,0,0,0,.4.167.556.556,0,0,0,.4-.167.568.568,0,0,0,0-.8L7.023,17.934l2.091-2.091a7.071,7.071,0,1,0-.8-.8L6.22,17.131,4.672,15.583a.563.563,0,0,0-.4-.167.556.556,0,0,0-.4.167.568.568,0,0,0,0,.8l1.548,1.548L3.543,19.808a.569.569,0,0,0,.4.97ZM9.5,6.256a5.933,5.933,0,1,1-1.736,4.2A5.9,5.9,0,0,1,9.5,6.256Z" transform="translate(34.109 22.466)" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

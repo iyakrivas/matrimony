@@ -1,0 +1,15 @@
+@import 'src/scss/_vars.scss';
+
+.Recent {
+  .row {
+    .ProfilePic {
+      // border-radius: $profilePicRadius;
+      .img-fluid {
+        border-radius: $profilePicRadius;
+      }
+    }
+    .ProfileDetail {
+      border-radius: $ProfileDetailRadius;
+    }
+  }
+}

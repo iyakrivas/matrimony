@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+@import './vars.scss';
+
+@font-face {
+  font-family: Solway;
+  src: url("../assets/fonts/Solway-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: Oxtail;
+  src: url("../assets/fonts/Oxtail.otf") format("opentype");
+}
+@font-face {
+  font-family: Savoye;
+  src: url("../assets/fonts/Savoye.ttf") format("truetype");
+}
+@font-face {
+  font-family: Romantica;
+  src: url("../assets/fonts/Romantica.ttf") format("truetype");
+}
+body {
+  font-family: Solway !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

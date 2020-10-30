@@ -1,0 +1,60 @@
+@import 'src/scss/_vars.scss';
+
+.preferences {
+  border: 1px solid $Bannerbg;
+  border-radius: $PreferenceRadius;
+  box-shadow: $preferenceBoxShadow;
+
+  .accordion {
+    background: $White !important;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    border-top: 1px solid $Bannerbg;
+    &:hover {
+      background-color: $White !important;
+    }
+    &:nth-child(1) {
+      border-radius: $PreferenceRadiusTop;
+    }
+
+  }
+  .Location, .LocationPanel {
+    border-radius: $PreferenceRadiusBottom;
+
+  }
+  .Location.active {
+    border-radius: 0px !important
+  }
+
+
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+    font-size: 25px;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    .customSlider {
+      min-width: 100%;
+    }
+  }
+}
