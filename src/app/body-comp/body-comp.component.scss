@@ -19,15 +19,17 @@
 					}
 				}
 				.Greeting_msg {
-					font-family: Savoye !important;
-					font-size: 30px;
+					font-family: Romantica !important;
+					font-size: 1.7rem;
+          opacity: 0.6;
 				}
 				.btn-make-pair {
 					background: $ThemeRed;
 					color: $White;
 					font-family: Oxtail !important;
 					font-size: 25px;
-					border-radius: 0px;
+					border-radius: 10px;
+          transition: all 200ms ease-in-out;
 					&:hover{
 						color: $IconBlack;
 						background: $White;
@@ -35,6 +37,9 @@
 				}
 		}
 		}
+    .wrap-flex {
+      flex-wrap: wrap;
+    }
 	}
 	.PreferenceRow {
 		background: $PreferenceBg;
