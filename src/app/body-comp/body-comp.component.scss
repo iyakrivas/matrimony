@@ -1,4 +1,4 @@
-@import 'src/scss/_vars.scss';
+@import '../../scss/_vars.scss';
 
 .container-fluid{
 
@@ -19,9 +19,10 @@
 					}
 				}
 				.Greeting_msg {
-					font-family: Romantica !important;
-					font-size: 1.7rem;
-          opacity: 0.6;
+					// font-family: 'Love Light', cursive;
+					font-size: 1.2rem;
+          color: $Textlight;
+          font-weight: 300;
 				}
 				.btn-make-pair {
 					background: $ThemeRed;

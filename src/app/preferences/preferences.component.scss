@@ -4,6 +4,8 @@
   border: 1px solid $Bannerbg;
   border-radius: $PreferenceRadius;
   box-shadow: $preferenceBoxShadow;
+  position: sticky;
+  top: 10rem;
 
   .accordion {
     background: $White !important;
