@@ -19,6 +19,9 @@
     font-size: 18px;
     transition: 0.4s;
     border-top: 1px solid $Bannerbg;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     &:hover {
       background-color: $White !important;
     }
