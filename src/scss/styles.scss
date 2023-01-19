@@ -3,7 +3,7 @@
 
 @font-face {
   font-family: Solway;
-  src: url("../assets/fonts/Solway-Regular.otf") format("opentype");
+  src: url("../assets/fonts/Solway-Regular.ttf") format("opentype");
 }
 @font-face {
   font-family: PortLight;
@@ -26,4 +26,9 @@ html, body { height: 100%; }
 body { margin: 0; }
 input:focus {
   box-shadow: none !important;
+}
+@media (max-width:768px) {
+  .navbar-nav .nav-link {
+    font-size: 70%;
+  }
 }
