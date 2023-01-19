@@ -6,11 +6,11 @@
   src: url("../assets/fonts/Solway-Regular.otf") format("opentype");
 }
 @font-face {
-  font-family: Oxtail;
-  src: url("../assets/fonts/Oxtail.otf") format("opentype");
+  font-family: PortLight;
+  src: url("../assets/fonts/PortLligatSlab-Regular.ttf") format("opentype");
 }
 @font-face {
-  font-family: 'Love Light', cursive;
+  font-family: LoveLight;
   src: url("../assets/fonts/LoveLight-Regular.ttf") format("truetype");
 }
 @font-face {
@@ -19,6 +19,7 @@
 }
 body {
   font-family: Solway !important;
+  background: $Bannerbg;
 }
 
 html, body { height: 100%; }

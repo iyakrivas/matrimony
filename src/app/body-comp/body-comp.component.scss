@@ -19,15 +19,14 @@
 					}
 				}
 				.Greeting_msg {
-					// font-family: 'Love Light', cursive;
-					font-size: 1.2rem;
-          color: $Textlight;
+					font-family: LoveLight;
+					font-size: 2.2rem;
           font-weight: 300;
 				}
 				.btn-make-pair {
 					background: $ThemeRed;
 					color: $White;
-					font-family: Oxtail !important;
+					font-family: PortLight !important;
 					font-size: 25px;
 					border-radius: 10px;
           transition: all 200ms ease-in-out;
