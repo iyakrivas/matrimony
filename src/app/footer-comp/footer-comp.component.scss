@@ -1,28 +1,34 @@
 @import 'src/scss/_vars.scss';
 .footer-comp {
+  margin-top: 3rem;
   a {
-    color: $Dark;
+    color: $BaliHai;
+    text-decoration: none;
+    &:hover {
+      color: $Dark;
+    }
   }
-  background: $Lavender;
+  // background: $AliceBlue;
+  color: $BaliHai;
   .subscribe {
     margin-top: -30px;
     .subscribe-form {
       border-radius: 40px;
       background: #fff;
       padding: 3px;
-      -webkit-box-shadow: 0px -12px 21px -15px rgb(0 0 0 / 10%);
-      -moz-box-shadow: 0px -12px 21px -15px rgba(0, 0, 0, 0.1);
-      box-shadow: 0px -12px 21px -15px rgb(0 0 0 / 10%);
+      -webkit-box-shadow: $ShadowStrong;
+      -moz-box-shadow: $ShadowStrong;
+      box-shadow: $ShadowStrong;
       .form-group {
         position: relative;
         margin-bottom: 0;
-        border-radius: 0;
+        border-radius: 10rem;
+        padding: 0.2rem;
          input {
           background: transparent !important;
           border: none !important;
           outline: none !important;
           color: rgba(0, 0, 0, 0.3) !important;
-          font-size: 16px;
           height: 56px;
           border-radius: 0;
           margin-bottom: 0;
@@ -32,8 +38,7 @@
         display: block;
         width: 150px;
         height: 56px;
-        font-size: 14px;
-        background: #bfa88e !important;
+        background: $PrussianBlue !important;
         border: none;
         letter-spacing: 1px;
         text-transform: uppercase;
@@ -41,5 +46,8 @@
     }
     }
   }
+  }
+  .footer-heading {
+    color: $Dark;
   }
 }

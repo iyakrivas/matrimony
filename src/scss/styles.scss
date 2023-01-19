@@ -4,6 +4,27 @@
 @font-face {
   font-family: Solway;
   src: url("../assets/fonts/Solway-Regular.ttf") format("opentype");
+  font-weight: 400;
+}
+@font-face {
+  font-family: Solway;
+  src: url("../assets/fonts/Solway-Medium.ttf") format("opentype");
+  font-weight: 600;
+}
+@font-face {
+  font-family: Solway;
+  src: url("../assets/fonts/Solway-Light.ttf") format("opentype");
+  font-weight: 100;
+  }
+@font-face {
+  font-family: Solway;
+  src: url("../assets/fonts/Solway-Bold.ttf") format("opentype");
+  font-weight: 700;
+}
+@font-face {
+  font-family: Solway;
+  src: url("../assets/fonts/Solway-ExtraBold.ttf") format("opentype");
+  font-weight: 900;
 }
 @font-face {
   font-family: PortLight;
@@ -17,23 +38,54 @@
   font-family: Romantica;
   src: url("../assets/fonts/Romantica.ttf") format("truetype");
 }
-body {
-  font-family: Solway !important;
-  background: $Lavender;
-  font-size: $BaseFont;
-  line-height: $BaseLineHeight;
+::-webkit-scrollbar {
+  width: 0.6rem;
 }
 
-html, body { height: 100%; }
-body { margin: 0; }
+::-webkit-scrollbar-track {
+  background: $BaliHai;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $SunsetOrange;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 70%;
+  line-height: $LineHeight;
+}
+
+body {
+  font-family: $FontFamily;
+  margin: 0;
+  font-size: $BaseFont;
+
+}
+
+* {
+  resize: none;
+  outline: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  color: var(--text);
+}
 input:focus {
   box-shadow: none !important;
 }
-@media (max-width:768px) {
-  .navbar-nav .nav-link {
-    font-size: 60% !important;
-  }
-  .Greeting_title {
-    font-size: 4rem;
-  }
+
+a, a:hover {
+  text-decoration: none;
+  transition: all .2s ease-in-out;
 }

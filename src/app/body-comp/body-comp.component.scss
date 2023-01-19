@@ -21,13 +21,11 @@
 				.Greeting_msg {
 					font-family: LoveLight;
 					font-size: 2.2rem;
-          font-weight: 300;
 				}
 				.btn-make-pair {
 					background: $PrussianBlue;
 					color: $White;
 					font-family: PortLight !important;
-					font-size: 25px;
 					border-radius: 10px;
           transition: all 200ms ease-in-out;
 					&:hover{
@@ -42,7 +40,7 @@
     }
 	}
 	.PreferenceRow {
-		background: $WhiteSmoke;
+		// background: $WhiteSmoke;
 	}
 }
 

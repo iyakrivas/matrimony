@@ -16,9 +16,8 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 18px;
     transition: 0.4s;
-    border-top: 1px solid $Lavender;
+    box-shadow: $Border;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -42,10 +41,8 @@
   .accordion:after {
     content: '\002B';
     color: #777;
-    font-weight: bold;
     float: right;
     margin-left: 5px;
-    font-size: 25px;
   }
 
   .active:after {
