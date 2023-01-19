@@ -19,7 +19,9 @@
 }
 body {
   font-family: Solway !important;
-  background: $Bannerbg;
+  background: $Lavender;
+  font-size: $BaseFont;
+  line-height: $BaseLineHeight;
 }
 
 html, body { height: 100%; }
@@ -29,6 +31,9 @@ input:focus {
 }
 @media (max-width:768px) {
   .navbar-nav .nav-link {
-    font-size: 70%;
+    font-size: 60% !important;
+  }
+  .Greeting_title {
+    font-size: 4rem;
   }
 }

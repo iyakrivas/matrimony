@@ -3,7 +3,7 @@
 .container-fluid{
 
 	.Banner {
-	background: $Bannerbg;
+	background: $Lavender;
 	}
 	.row{
 		.col-sm {
@@ -11,11 +11,11 @@
 				.Greeting_title {
 					font-family: Romantica !important;
 					text-shadow: 4px 6px 7px rgba(0,0,0,0.3);
-					color: $ThemeRed;
+					color: $PrussianBlue;
 					line-height: 1;
 					padding-top: 60px;
 						.Greetings_ {
-						color: $DarkPurple !important;
+						color: $SunsetOrange !important;
 					}
 				}
 				.Greeting_msg {
@@ -24,14 +24,14 @@
           font-weight: 300;
 				}
 				.btn-make-pair {
-					background: $ThemeRed;
+					background: $PrussianBlue;
 					color: $White;
 					font-family: PortLight !important;
 					font-size: 25px;
 					border-radius: 10px;
           transition: all 200ms ease-in-out;
 					&:hover{
-						color: $IconBlack;
+						color: $Dark;
 						background: $White;
 					}
 				}
@@ -42,7 +42,7 @@
     }
 	}
 	.PreferenceRow {
-		background: $PreferenceBg;
+		background: $WhiteSmoke;
 	}
 }
 
