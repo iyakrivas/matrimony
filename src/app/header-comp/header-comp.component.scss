@@ -83,3 +83,20 @@
     }
   }
 }
+@media (min-width: 992px) {
+  .navbar {
+    .navbar-brand {
+      order: 1;
+
+    }
+
+    .navbar-collapse {
+      order: 0;
+      margin-right: auto;
+      .navbar-nav {
+      margin-right: auto;
+      margin-left: 0 !important;
+      }
+    }
+  }
+}
