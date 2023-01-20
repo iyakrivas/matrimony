@@ -38,6 +38,12 @@
     .wrap-flex {
       flex-wrap: wrap;
     }
+    .allience-for {
+      padding: 10rem 1.5rem;
+      .form-check {
+        min-width: 13rem;
+      }
+    }
 	}
 	.PreferenceRow {
 		// background: $WhiteSmoke;
