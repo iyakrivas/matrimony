@@ -81,8 +81,9 @@ a {
   cursor: pointer;
   color: $SuvaGrey;
 }
-input:focus {
+input:focus, button:focus {
   box-shadow: none !important;
+  outline: none !important;
 }
 
 a, a:hover {
@@ -91,6 +92,7 @@ a, a:hover {
 }
 .form-check {
   margin-bottom: 1.5rem;
+  padding: 0;
 }
 [type="checkbox"], [type="radio"] {
   display: none;
@@ -114,7 +116,7 @@ label {
   display: block;
   width: 2rem;
   height: 2rem;
-  border: 0.2rem solid $PrussianBlue;
+  border: 0.2rem solid $SunsetOrange;
   position: absolute;
   top: 0;
   left: 0;
@@ -138,7 +140,7 @@ label {
   border-radius: 100%;
 }
 [type="checkbox"]:checked+label::before, [type="radio"]:checked+label::before {
-  background: $PrussianBlue;
+  background: $themeSecondary;
   z-index: 0;
   transition: all 300ms ease-in-out;
   box-shadow: $preferenceBoxShadow;

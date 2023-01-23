@@ -13,23 +13,24 @@
 					text-shadow: 4px 6px 7px rgba(0,0,0,0.3);
 					color: $PrussianBlue;
 					padding-top: 60px;
-          line-height: 4rem;
 						.Greetings_ {
 						color: $SunsetOrange !important;
+            margin-right: 1rem;
 					}
 				}
 				.Greeting_msg {
 					font-family: LoveLight;
-					font-size: 2.2rem;
+					font-size: 2.5rem;
 				}
 				.btn-make-pair {
-					background: $PrussianBlue;
+					background: $SunsetOrange;
 					color: $White;
 					font-family: PortLight !important;
-					border-radius: 10px;
+					font-size: 1.6rem;
           transition: all 200ms ease-in-out;
+          text-transform: uppercase;
 					&:hover{
-						color: $Dark;
+						color: $PrussianBlue;
 						background: $White;
 					}
 				}
@@ -51,9 +52,11 @@
 }
 
 @media only screen and (min-width: 992px) {
-	// .Greeting_msgDiv{
-	// 	top: 50%;
-	// 	transform: translateY(-50%);
-	// }
+	.Greeting_msgDiv{
+    position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+    padding: 20%;
+	}
 
 }

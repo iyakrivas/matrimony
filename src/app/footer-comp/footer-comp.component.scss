@@ -1,9 +1,14 @@
 @import 'src/scss/_vars.scss';
 .footer-comp {
-  margin-top: 3rem;
+  margin-top: 6rem;
+  background: rgb(25 25 112 / 5%);
+  -webkit-box-shadow: $ShadowStrong;
+      -moz-box-shadow: $ShadowStrong;
+      box-shadow: $ShadowStrong;
   a {
     color: $BaliHai;
     text-decoration: none;
+    font-size: 1.3rem;
     &:hover {
       color: $Dark;
     }
