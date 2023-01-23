@@ -1,6 +1,7 @@
 @import 'src/scss/_vars.scss';
 
 .Recent {
+  box-shadow: rgb(17 12 46 / 15%) 0px 48px 100px 0px;
   .row {
     .ProfilePic {
       // border-radius: $profilePicRadius;
@@ -11,5 +12,12 @@
     .ProfileDetail {
       border-radius: $ProfileDetailRadius;
     }
+  }
+}
+@media (min-width:769px) {
+  .Recent {
+    border: 1px solid rgba($color: #000000, $alpha: 0.15);
+    padding: 0rem 3rem;
+    border-top: 0;border-bottom: 0;
   }
 }

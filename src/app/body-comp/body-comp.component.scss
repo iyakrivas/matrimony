@@ -41,8 +41,12 @@
     }
     .allience-for {
       padding: 10rem 1.5rem;
-      .form-check {
-        min-width: 13rem;
+      .wrap-flex {
+        gap: 1.5rem;
+        .form-check {
+          min-width: 13rem;
+
+        }
       }
     }
 	}
@@ -59,4 +63,28 @@
     padding: 20%;
 	}
 
+}
+[type=checkbox]:checked + label::before, [type=radio]:checked + label::before, [type=radio]:not(:checked) + label::before {
+  width: 100%;
+  height: 4.5rem;
+  border-radius: 10rem;
+
+}
+[type=radio]:checked + label {
+  span {
+    color: $White;
+  }
+}
+.form-check label, .form-check label {
+  height: 4.5rem;
+  span {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
