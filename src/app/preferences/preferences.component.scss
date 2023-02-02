@@ -1,11 +1,10 @@
 @import 'src/scss/_vars.scss';
 
 .preferences {
-  border: 1px solid $Lavender;
   border-radius: $PreferenceRadius;
-  box-shadow: $preferenceBoxShadow2;
   position: sticky;
   top: 10rem;
+  border: $Border;
 
   .accordion {
     background: $White !important;
@@ -17,7 +16,7 @@
     text-align: left;
     outline: none;
     transition: 0.4s;
-    box-shadow: $Border;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +29,7 @@
     }
 
   }
-  .Location, .LocationPanel {
+  .Location:last-of-type, .LocationPanel:last-of-type {
     border-radius: $PreferenceRadiusBottom;
 
   }
@@ -58,6 +57,11 @@
     transition: max-height 0.2s ease-out;
     .customSlider {
       min-width: 100%;
+    }
+    .form-check {
+      [type=checkbox]:checked + label::before {
+        color: $Primary;
+      }
     }
   }
 }

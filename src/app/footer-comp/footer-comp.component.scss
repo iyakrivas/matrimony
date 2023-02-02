@@ -2,9 +2,7 @@
 .footer-comp {
   margin-top: 6rem;
   background: rgb(25 25 112 / 5%);
-  -webkit-box-shadow: $ShadowStrong;
-      -moz-box-shadow: $ShadowStrong;
-      box-shadow: $ShadowStrong;
+  border-top: $Border;
   a {
     color: $BaliHai;
     text-decoration: none;
@@ -21,9 +19,7 @@
       border-radius: 40px;
       background: #fff;
       padding: 3px;
-      -webkit-box-shadow: $ShadowStrong;
-      -moz-box-shadow: $ShadowStrong;
-      box-shadow: $ShadowStrong;
+      border: $Border;
       .form-group {
         position: relative;
         margin-bottom: 0;
@@ -37,13 +33,14 @@
           height: 56px;
           border-radius: 0;
           margin-bottom: 0;
+          font-size: 1.4rem;
       }
       .submit {
         color: #fff !important;
         display: block;
         width: 150px;
         height: 56px;
-        background: $PrussianBlue !important;
+        background: $Primary !important;
         border: none;
         letter-spacing: 1px;
         text-transform: uppercase;

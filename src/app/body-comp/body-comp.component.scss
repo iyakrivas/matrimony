@@ -9,28 +9,31 @@
 		.col-sm {
 			.Greeting_msgDiv{
 				.Greeting_title {
-					font-family: Romantica !important;
+          font-family: LoveLight;
+          font-weight: 900;
+					// font-family: Romantica !important;
 					text-shadow: 4px 6px 7px rgba(0,0,0,0.3);
-					color: $PrussianBlue;
+					color: $Primary;
 					padding-top: 60px;
 						.Greetings_ {
-						color: $SunsetOrange !important;
+						color: tomato !important;
             margin-right: 1rem;
 					}
 				}
 				.Greeting_msg {
-					font-family: LoveLight;
-					font-size: 2.5rem;
+					font-family: 'Lovers Quarrel', cursive;
+					font-size: 4rem;
+          font-weight: 600;
 				}
 				.btn-make-pair {
-					background: $SunsetOrange;
+
 					color: $White;
 					font-family: PortLight !important;
 					font-size: 1.6rem;
           transition: all 200ms ease-in-out;
           text-transform: uppercase;
 					&:hover{
-						color: $PrussianBlue;
+						color: $Primary;
 						background: $White;
 					}
 				}
@@ -51,7 +54,15 @@
     }
 	}
 	.PreferenceRow {
-		// background: $WhiteSmoke;
+		background: $WhiteSmoke;
+    h2 {
+      font-size: 3rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      margin: 2rem 0;
+      border-bottom: 2px solid #000;
+      display: inline-block;
+    }
 	}
 }
 
@@ -73,13 +84,14 @@
   border: none;
   box-shadow: none;
   text-shadow: 0rem 0.2rem 0.4rem rgba(129, 161, 255, 0.5);
-  color: $SunsetOrange;
+  color: $Primary;
   font-size: 2rem;
 }
 [type=radio]:not(:checked) + label::before {
-  border-radius: 100%;
+  // border-radius: 100%;
+  color: $White;
 }
 [type=radio]:checked + label span {
-  color: $SunsetOrange;
-  text-shadow: 0rem 0.2rem 0.4rem rgba(129, 161, 255,0.5);
+  color: $Primary;
+   text-shadow: 0rem 0.2rem 0.4rem rgba(129, 161, 255,0.5);
 }

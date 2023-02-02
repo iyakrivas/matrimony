@@ -1,10 +1,8 @@
-$SunsetOrange: #f54a3a;
-$PrussianBlue: #012162;
+
 $Dark: #000000;
 $Lavender: #F7FBFE;
 $SuvaGrey: #888888;
 $White: #ffffff;
-$themeSecondary: linear-gradient(#fcb214,$SunsetOrange);
 $PreferenceRadiusTop: 20px 20px 0px 0px;
 $PreferenceRadius: 20px 20px 20px 20px;
 $PreferenceRadiusBottom: 0px 0px 20px 20px;
@@ -12,12 +10,15 @@ $WhiteSmoke: #F7F7F7;
 $preferenceBoxShadow: 0rem 0.3rem 0.5rem rgb(0 0 0 / 50%);
 $preferenceBoxShadow2: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 $ShadowStrong:rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
-$profilePicRadius: 20px 0px 0px 20px;
-$ProfileDetailRadius: 0px 20px 20px 0px;
+$profilePicRadius: 2rem 0 0 0;
+$ProfileDetailRadius: 0px 2rem 2rem 0px;
 $BaseFont: 1.6rem;
 $BaseLineHeight: 1.2;
 $AliceBlue : #DDEFFE;
 $BaliHai :#919CA9;
-$Border: rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+$Border: 0.2rem solid rgb(218, 220, 231);
 $FontFamily: Solway;
 $LineHeight: 1.2;
+$Primary: #FF6347;
+$Secondary:#012162;
+$Gradient: linear-gradient(to bottom, $Primary, $Secondary)
