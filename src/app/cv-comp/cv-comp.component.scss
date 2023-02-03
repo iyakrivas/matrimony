@@ -1,0 +1,57 @@
+@import 'src/scss/_vars.scss';
+
+.profile {
+  border-radius: 3rem;
+  border: $Border !important;
+  overflow: hidden;
+  max-width: 30rem;
+
+  .ProfilePic {
+    .img-fluid {
+      border-radius: 2rem;
+      box-shadow: rgb(0 0 0 / 26%) 0px 2px 3px 0px;
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  .ProfileDetail {
+    border-radius: $ProfileDetailRadius;
+
+    .name {
+      text-transform: capitalize;
+      font-size: 3rem;
+      overflow-wrap: break-word;
+    }
+
+    .bio-data {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+      li {
+        font-size: 1.4rem;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .btn-theme {
+    background: $Primary;
+    color: $White;
+    text-transform: uppercase;
+    border-radius: 2rem;
+    margin-top: 1rem;
+  }
+
+}
+
+
+@media (min-width:769px) {
+
+}
+
+@media (max-width:768px) {
+
+  .ProfileDetail {
+    border-radius: 0 !important;
+  }
+}
