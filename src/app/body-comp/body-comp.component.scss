@@ -12,18 +12,20 @@
           font-family: LoveLight;
           font-weight: 900;
 					// font-family: Romantica !important;
-					text-shadow: 4px 6px 7px rgba(0,0,0,0.3);
-					color: $Primary;
+					text-shadow: 4px 6px 16px $Primary, 4px 5px 0px rgba(255,255,255),-4px 5px 0px tomato,5px 5px 0px tomato;
+					color: $White;
 					padding-top: 60px;
-						.Greetings_ {
-						color: tomato !important;
+          .Greetings_ {
+            color: tomato !important;
             margin-right: 1rem;
 					}
 				}
 				.Greeting_msg {
-					font-family: 'Lovers Quarrel', cursive;
-					font-size: 4rem;
+          font-family: LoveLight;
+					// font-family: 'Lovers Quarrel', cursive;
+					font-size: 2rem;
           font-weight: 600;
+          opacity: 0.5;
 				}
 				.btn-make-pair {
 
